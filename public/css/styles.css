@@ -53,3 +53,9 @@ button {
     color: white;
     padding: 8px;
 }
+
+button:disabled {
+    cursor: default;
+    background: #eeeeee;
+    color: black
+}
